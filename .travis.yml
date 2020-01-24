@@ -19,6 +19,6 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: 
+  api-key:  97cd2a4f-11c1-4e8a-ae74-342335130eca
     secure: $HEROKU_API_KEY
   app: valteste
